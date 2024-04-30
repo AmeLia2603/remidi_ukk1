@@ -1,0 +1,602 @@
+2024-04-22 13:15:37 notice: Undefined property `FotoController::$Pengaduan` in `C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php` on line 37
+Request URL: /foto/view/1
+Referer URL: http://localhost/form_gallery/foto
+Trace:
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php, line 311
+Cake\Controller\Controller->__get() C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php, line 37
+App\Controller\FotoController->view() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\form_gallery\webroot\index.php, line 37
+[main]
+
+2024-04-23 16:40:00 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /user/view/1
+Referer URL: http://localhost/form_gallery/foto/view/1
+Trace:
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp\htdocs\form_gallery\src\Controller\UserController.php, line 36
+App\Controller\UserController->view() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\form_gallery\webroot\index.php, line 37
+[main]
+
+2024-04-23 16:40:17 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /user/view/1
+Referer URL: http://localhost/form_gallery/foto/view/1
+Trace:
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp\htdocs\form_gallery\src\Controller\UserController.php, line 36
+App\Controller\UserController->view() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\form_gallery\webroot\index.php, line 37
+[main]
+
+2024-04-24 05:51:40 notice: Undefined property `FotoController::$Galleries` in `C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php` on line 37
+Request URL: /foto/view/1
+Trace:
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php, line 311
+Cake\Controller\Controller->__get() C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php, line 37
+App\Controller\FotoController->view() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\form_gallery\webroot\index.php, line 37
+[main]
+
+2024-04-24 05:51:52 notice: Undefined property `FotoController::$Galleries` in `C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php` on line 37
+Request URL: /foto/view/2
+Referer URL: http://localhost/form_gallery/foto
+Trace:
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php, line 311
+Cake\Controller\Controller->__get() C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php, line 37
+App\Controller\FotoController->view() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\form_gallery\webroot\index.php, line 37
+[main]
+
+2024-04-24 05:52:30 notice: Undefined property `FotoController::$Album` in `C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php` on line 37
+Request URL: /foto/view/2
+Referer URL: http://localhost/form_gallery/foto
+Trace:
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php, line 311
+Cake\Controller\Controller->__get() C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php, line 37
+App\Controller\FotoController->view() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\form_gallery\webroot\index.php, line 37
+[main]
+
+2024-04-24 05:52:40 notice: Since 5.0.0: Calling Table::get() with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php, line: 37
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `src/Controller/FotoController.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /foto/view/2
+Referer URL: http://localhost/form_gallery/foto
+Trace:
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php, line 1556
+Cake\ORM\Table->get() C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php, line 37
+App\Controller\FotoController->view() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\form_gallery\webroot\index.php, line 37
+[main]
+
+2024-04-24 05:52:47 notice: Since 5.0.0: Calling Table::get() with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php, line: 37
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `src/Controller/FotoController.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /foto/view/2
+Referer URL: http://localhost/form_gallery/foto
+Trace:
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php, line 1556
+Cake\ORM\Table->get() C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php, line 37
+App\Controller\FotoController->view() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\form_gallery\webroot\index.php, line 37
+[main]
+
+2024-04-24 05:53:18 notice: Since 5.0.0: Calling Table::get() with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php, line: 37
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `src/Controller/FotoController.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /foto/view/2
+Trace:
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\ORM\Table.php, line 1556
+Cake\ORM\Table->get() C:\xampp\htdocs\form_gallery\src\Controller\FotoController.php, line 37
+App\Controller\FotoController->view() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\form_gallery\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\form_gallery\webroot\index.php, line 37
+[main]
+
+2024-04-24 09:07:08 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /user/view/1
+Referer URL: http://localhost/UKK_2024/user
+Trace:
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp\htdocs\UKK_2024\src\Controller\UserController.php, line 36
+App\Controller\UserController->view() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\UKK_2024\webroot\index.php, line 37
+[main]
+
+2024-04-24 09:15:07 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /user/view/1
+Referer URL: http://localhost/UKK_2024/user
+Trace:
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp\htdocs\UKK_2024\src\Controller\UserController.php, line 36
+App\Controller\UserController->view() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\UKK_2024\webroot\index.php, line 37
+[main]
+
+2024-04-24 09:38:14 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /user/view/1
+Referer URL: http://localhost/UKK_2024/user
+Trace:
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp\htdocs\UKK_2024\src\Controller\UserController.php, line 36
+App\Controller\UserController->view() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\UKK_2024\webroot\index.php, line 37
+[main]
+
+2024-04-24 10:52:57 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /user/view/1
+Referer URL: http://localhost/UKK_2024/user
+Trace:
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp\htdocs\UKK_2024\src\Controller\UserController.php, line 36
+App\Controller\UserController->view() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\UKK_2024\webroot\index.php, line 37
+[main]
+
+2024-04-24 10:53:42 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /user/view/1
+Referer URL: http://localhost/UKK_2024/user
+Trace:
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp\htdocs\UKK_2024\src\Controller\UserController.php, line 36
+App\Controller\UserController->view() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\UKK_2024\webroot\index.php, line 37
+[main]
+
+2024-04-25 08:01:38 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /user/view/1
+Referer URL: http://localhost/UKK_2024/user
+Trace:
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp\htdocs\UKK_2024\src\Controller\UserController.php, line 36
+App\Controller\UserController->view() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\UKK_2024\webroot\index.php, line 37
+[main]
+
+2024-04-25 10:43:48 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /user/view/1
+Referer URL: http://localhost/UKK_2024/user
+Trace:
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp\htdocs\UKK_2024\src\Controller\UserController.php, line 36
+App\Controller\UserController->view() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\UKK_2024\webroot\index.php, line 37
+[main]
+
+2024-04-25 13:23:48 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /user/view/4
+Referer URL: http://localhost/UKK_2024/user
+Trace:
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp\htdocs\UKK_2024\src\Controller\UserController.php, line 36
+App\Controller\UserController->view() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\UKK_2024\webroot\index.php, line 37
+[main]
+
+2024-04-25 13:24:33 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /user/view/4
+Referer URL: http://localhost/UKK_2024/user
+Trace:
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp\htdocs\UKK_2024\src\Controller\UserController.php, line 36
+App\Controller\UserController->view() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp\htdocs\UKK_2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp\htdocs\UKK_2024\webroot\index.php, line 37
+[main]
+
