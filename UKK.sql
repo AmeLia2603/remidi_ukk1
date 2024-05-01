@@ -40,12 +40,6 @@ CREATE TABLE `album` (
 --
 
 INSERT INTO `album` (`id`, `nama_album`, `deskripsi`, `tdl_dibuat`, `user_id`) VALUES
-(3, 'Pemandangan Alam', 'Album Yang Digunakan Untuk Menyimpan Foto Tentang Pemandangan Alam', '2024-04-24 08:13:56', 1),
-(4, 'Orang', 'Foto Orang', '2024-04-24 10:36:44', 1),
-(5, 'Mobil', 'Tunjukan Pesona Mobil Kamu', '2024-04-24 10:38:15', 1),
-(6, 'UKK', 'ukk', '2024-04-24 14:02:37', 1),
-(7, 'Olahraga', 'Olahraga', '2024-04-25 08:56:51', 4),
-(8, 'SekolahKU', 'Smkn 11 ', '2024-04-25 11:52:35', 1);
 
 -- --------------------------------------------------------
 
@@ -68,16 +62,7 @@ CREATE TABLE `foto` (
 --
 
 INSERT INTO `foto` (`id`, `judul_foto`, `deskripsi`, `tgl_unggahan`, `lokasi_foto`, `album_id`, `user_id`) VALUES
-(8, 'Gunung', 'Saya Mengunjungi Gunung Bromo', '2024-04-25 13:30:22', '7.jpg', 3, 4),
-(9, 'Gunung', 'Saya Mengunjungi Gunung Bromo', '2024-04-24 10:09:20', '2.jpeg', 3, 1),
-(10, 'Gambar Orang Berbaju Kuning', 'Gambar Seseorang Berbaju Kuning Yang Berada Di Pantai', '2024-04-24 10:37:06', '3.jpg', 4, 1),
-(11, 'GTR R34', 'Pesona Skyline R34', '2024-04-24 10:38:34', '12.jpg', 5, 1),
-(12, 'Mazda RX 7', 'Pesona Mazda RX 7', '2024-04-24 10:39:08', '1.jpg', 5, 1),
-(13, 'Gunung', 'Pesona Gunung', '2024-04-24 10:39:30', '16.jpg', 3, 1),
-(14, 'Seseorang Memakai Seragam', 'Gambar Seseorang Remaja Memakai Seragam Putih', '2024-04-24 10:41:05', 'Gambar WhatsApp 2023-05-24 pukul 06.40.19.jpg', 4, 1),
-(15, 'ukk', 'UKK', '2024-04-24 14:02:57', '17.jpg', 6, 1),
-(16, 'Olahraga', 'Olahraga', '2024-04-25 08:57:10', '5.jpg', 7, 4),
-(17, 'Sekokah', 'Sekolah', '2024-04-25 11:53:00', '19.jpg', 8, 1);
+
 
 -- --------------------------------------------------------
 
@@ -98,10 +83,7 @@ CREATE TABLE `komentarfoto` (
 --
 
 INSERT INTO `komentarfoto` (`id`, `foto_id`, `user_id`, `isi_komentar`, `tgl_komentar`) VALUES
-(2, 8, 1, 'gunungnya bagus mas', '2024-04-24 10:27:15'),
-(3, 9, 1, 'indahnya', '2024-04-24 12:08:40'),
-(4, 15, 1, 'UKK', '2024-04-24 14:03:23'),
-(5, 16, 4, 'qwer', '2024-04-25 08:57:48');
+
 
 -- --------------------------------------------------------
 
@@ -121,11 +103,7 @@ CREATE TABLE `likefoto` (
 --
 
 INSERT INTO `likefoto` (`id`, `foto_id`, `user_id`, `tgl_like`) VALUES
-(2, 8, 1, '2024-04-24 10:25:16'),
-(4, 9, 1, '2024-04-24 13:47:48'),
-(6, 15, 3, '2024-04-24 14:04:38'),
-(7, 15, 1, '2024-04-25 08:14:06'),
-(10, 9, 4, '2024-04-25 13:30:37');
+
 
 -- --------------------------------------------------------
 
@@ -148,8 +126,7 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `username`, `password`, `email`, `nama_lengkap`, `alamat`) VALUES
 (1, 'admin', '$2y$10$2buxDjrorjH8Nit2DXjTUuvUl3Wqg2qFrtMub2Rip7xVdYGoTQGQy', 'miko35292@gmail.com', 'Ryfaathir Rahman', 'Bakalan Krajan'),
-(3, 'ukk', '$2y$10$EZbNVoXYY980lGJc2XJWYuy1ZoWG5Z6a/At2k3rw0iJ4zFdSGqnga', 'ukk@gmail.com', 'ukk', 'ukk'),
-(4, 'farhan', '$2y$10$qymHBEXRoV7PnxP9iLwZeukPWYVR3IpUTDrFVwaoipyp7jN0FQBV6', 'farhan@gmail.com', 'Farhan', 'Malang');
+
 
 --
 -- Indexes for dumped tables
